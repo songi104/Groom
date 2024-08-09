@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li {
+            float: left;
+            margin-right: 30px;
+            font-size: 32px;
+            list-style: none;
+        }
+
+        ul::before {
+            content: '시작'
+        }
+
+        li::after {
+            content: '    | '
+        }
+
+        li:first-of-type::before {
+            content: 'fd?'
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <a href="./float-clear.html">Float-Clear.html</a>
+    <br>
+    <a href="./text.html">Text.html</a>
+    <br>
+    <a href="./image-input.html">image-input.html</a>
+
+
+</body>
+
+</html>
