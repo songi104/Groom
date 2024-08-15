@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event2</title>
+    <style>
+        body * {
+            margin: 10px;
+            border: 2px solid blue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- capturing
+    <form>form
+        <div>div2
+            <div>div1
+                <p>p</p>
+            </div>
+        </div>
+    </form>
+    <script src="capturing.js"></script> -->
+
+    <!-- <script> // for bubbling
+        const form = document.querySelector('form');
+        const div = document.querySelector('div');
+        const p = document.querySelector('p');
+
+        form.onclick = function (e) {
+            // event.target => 실제 이벤트가 시작된 '타겟' 요소
+            // this (or event.currentTarget) => 핸들러가 할당된 요소
+            event.target.style.backgroundColor = 'yellow';
+
+            setTimeout(() => {
+                alert("target = " + event.target.tagName + ", this=" + this.tagName)
+            }, 0);
+        };
+    </script> -->
+
+    <!-- For delegation -->
+    <div id="buttons">
+        <button class="btn">Click me!</button>
+        <button class="btn">Click me!</button>
+    </div>
+    <script src="delegation.js"></script>
+
+</body>
+
+</html>
