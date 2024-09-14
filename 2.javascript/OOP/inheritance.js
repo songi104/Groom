@@ -7,7 +7,7 @@ class Person {
     introduce() {
         return `hello my name is ${this.name}`
     }
-
+   
 }
 
 class Client extends Person {
