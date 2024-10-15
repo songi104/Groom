@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="java-free-part">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/java/java-free-part.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
