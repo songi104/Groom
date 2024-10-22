@@ -5,7 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3030f7f1-5608-4cd0-aa26-be582f64acd9" name="변경" comment="1016">
-      <change afterPath="$PROJECT_DIR$/java/src/sec03/Chap1/Ex1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/sec03/chap2/Ex01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/sec03/chap2/Ex02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/sec03/chap2/Ex03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/sec03/chap2/Ex04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/sec03/chap2/Ex05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/sec03/chap2/Ex06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/sec03/chap3/Ex01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/sec03/chap3/Ex02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/sec03/chap3/Ex03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/react-crud-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Project/react-crud-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/react-crud-app/src/components/ExpenseForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/Project/react-crud-app/src/components/ExpenseForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/react-crud-app/src/components/ExpenseItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/Project/react-crud-app/src/components/ExpenseItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/react-crud-app/src/components/ExpenseList.js" beforeDir="false" afterPath="$PROJECT_DIR$/Project/react-crud-app/src/components/ExpenseList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/react-crud-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Project/react-crud-app/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/sec03/Chap1/Ex1.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/sec03/chap1/Ex1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,22 +44,25 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/song/Desktop/Groom/java",
-    "project.structure.last.edited": "패싯",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/song/Desktop/Groom/java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;패싯&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\song\Desktop\Groom\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="sec03.chap3" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
@@ -69,5 +87,46 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1016" />
     <option name="LAST_COMMIT_MESSAGE" value="1016" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/sec03/chap2/Ex04.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/sec03/chap2/Ex05.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/sec03/chap2/Ex06.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/sec03/chap2/Ex02.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/sec03/chap3/Ex01.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/sec03/chap3/Ex02.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/sec03/chap3/Ex03.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,4 +1,4 @@
-package sec03.Chap1;
+package sec03.chap1;
 
 public class Ex1 {
     public static void main(String[] args) {
