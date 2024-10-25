@@ -8,7 +8,7 @@ public class YalcoChicken {
     YalcoChicken (int no, String name, ChickenMenu[] menus) {
         this.no = no;
         this.name = name;
-        this.menus = menus;
+        this.menus = menus.clone();
     }
 
     ChickenMenu orderMenu (String name) {
