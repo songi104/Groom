@@ -6,21 +6,21 @@ import sec05.chap06.ex01.ToggleButton;
 
 public class Main {
     public static void main(String[] args) {
-        Button entrButton = new Button("Enter");
-        ShutDownButton stdnButton = new ShutDownButton();
-        ToggleButton tglButton = new ToggleButton("CapsLock", false);
+        PolarBear pb = new PolarBear();
+        Mammal mm = pb;
+        Hunter ht = pb;
 
-        entrButton.func();
+        GlidingLizard glidingLizard = new GlidingLizard();
+        Eagle eagle = new Eagle();
 
-        System.out.println("\n- - - -\n");
+        Hunter[] hunters = {
+                pb, glidingLizard, eagle
+        };
 
-        stdnButton.func();
+        for (Hunter hunter: hunters) {
+            hunter.hunt();
+        }
 
-        System.out.println("\n - - - -\n");
-
-        tglButton.func();
-        tglButton.func();
-        tglButton.func();
     }
 
 }
