@@ -11,10 +11,10 @@ public class YalcoChicken {
         this.name = name;
     }
 
-    public void changeFinalFields () {
-        // ⚠️ 불가
-        this.no++;
-    }
+//    public void changeFinalFields () {
+//        // ⚠️ 불가
+//        this.no++;
+//    }
 
     public final void fryChicken () {
         // 이 녀석을 오버라이드할 수 없어요
