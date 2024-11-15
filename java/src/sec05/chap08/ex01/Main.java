@@ -1,26 +1,22 @@
 package sec05.chap08.ex01;
 
-import sec05.chap06.ex01.Button;
-import sec05.chap06.ex01.ShutDownButton;
-import sec05.chap06.ex01.ToggleButton;
-
 public class Main {
     public static void main(String[] args) {
-        Button entrButton = new Button("Enter");
-        ShutDownButton stdnButton = new ShutDownButton();
-        ToggleButton tglButton = new ToggleButton("CapsLock", false);
+        //YalcoGroup yalcoGroup = new YalcoGroup(1, "서울");
 
-        entrButton.func();
+        YalcoChicken ych1 = new YalcoChicken("판교");
+        YalcoChicken ych2 = new YalcoChicken("강남");
 
-        System.out.println("\n- - - -\n");
+        YalcoCafe ycf1 = new YalcoCafe("울릉", true);
+        YalcoCafe ycf2 = new YalcoCafe("강릉", false);
 
-        stdnButton.func();
+        YalcoGroup[] ycStores = {
+                ych1, ych2, ycf1, ycf2
+        };
 
-        System.out.println("\n - - - -\n");
+        for (YalcoGroup ycStore:ycStores) {
+            ycStore.takeOrder();
+        }
 
-        tglButton.func();
-        tglButton.func();
-        tglButton.func();
     }
-
 }
